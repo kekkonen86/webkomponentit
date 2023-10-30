@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rest-testaaja</title>
+    <style>
+        main{
+            display:grid;
+            align-items: center;
+            justify-items: center;
+        }
+
+        #laheta {
+            margin-top:1em;
+        }
+        #urikentta{
+            width: 25em;
+        }   
+        h2{
+            font-size: small;
+        }
+        #kuvalataus{
+            margin:1em;
+            display: grid;
+        }
+        img{
+            margin:1em;
+            max-height: 80px;
+        }
+    </style>
+    <script src="restTestaaja.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Rest-testaaja</h1>
+        <p>
+            <label>Resurssi URI: <input type="text" id="urikentta"></label>
+        </p>
+        <fieldset id="metodit">
+            <legend>Valitse:</legend>
+            <label>
+                <input type="radio" name="metodi" value="GET" id="get">
+                GET
+            </label>
+            <label><input type="radio" name="metodi" value="PUT">PUT</label>
+            <label><input type="radio" name="metodi" value="POST">POST</label>
+            <label><input type="radio" name="metodi" value="DELETE">DELETE</label>
+        </fieldset>
+        <div id="kuvalataus">
+            <label>Lisää kuva <input type="file"></label>
+            <img src="" alt="">
+        </div>
+        <h2>JSON:</h2>
+        <div>
+            <textarea id="jsonalue" cols="50" rows="10"></textarea>
+        </div>
+        <button id="laheta">Lähetä</button>
+        <h2>Tulos:</h2>
+        <pre id="tulosalue"></pre>
+    </main>   
+</body>
+</html>

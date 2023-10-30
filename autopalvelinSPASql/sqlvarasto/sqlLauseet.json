@@ -1,0 +1,20 @@
+{
+    "haeKaikki":[
+        "select numero, nimi, väri, hinta, huomautuksia, kuva",
+        "from auto"
+    ],
+    "hae":[
+        "select numero, nimi, väri, hinta, huomautuksia, kuva",
+        "from auto where numero=?"
+    ],
+    "lisaa":[
+        "insert into auto ( numero, nimi, väri, hinta, huomautuksia, kuva)",
+        "values(?,?,?,?,?,?)"
+    ],
+    "paivita":[
+        "update auto set nimi=?, väri=?,hinta=?,huomautuksia=?,kuva=? ",
+        "where numero=?"
+    ],
+    "poista":["delete from auto where numero=?"],
+    "perusavain":"numero"
+}

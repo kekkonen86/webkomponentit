@@ -1,0 +1,20 @@
+[
+    {
+        "tunnus": "x100",
+        "etunimi": "Leila",
+        "sukunimi": "Hökki",
+        "kuva": "x100.png"
+    },
+    {
+        "tunnus": "y20A",
+        "etunimi": "Matti",
+        "sukunimi": "Puro",
+        "kuva": "y20A.png"
+    },
+    {
+        "tunnus": "100",
+        "etunimi": "Leila",
+        "sukunimi": "Hökki",
+        "kuva": "100.png"
+    }
+]

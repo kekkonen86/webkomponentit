@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Autolomake form, .Autolomake .kentat{
+  display: grid;
+  justify-items: left;
+  padding: 1em;
+  row-gap: 1em;
+}
+
+.Autolomake .Napit {
+  display: flex;
+}
+
+.Autolomake .Kuva {
+  margin: 1em;
+  max-height: 80px;
+}
+
+.Autolomake input[type="file"] {
+  margin: 1em;
+}
+
+.Taulukko table {
+  border: solid black 1px;
+  border-collapse: collapse;
+}
+
+.Taulukko th,
+td {
+  border: solid black 1px;
+  padding: 1em;
+  text-align: left;
+}
+
+.Taulukko .Kuva {
+  height: 40px;
+}
+
+.Taulukko .valittu{
+  background-color: aquamarine;
+  border:2px solid blue;
+}
+
+.Lataaja #tiedosto{
+  display:none;
+}
+.Lataaja .selite span{
+  margin-left:1em;
+  border:2px solid gray;
+  padding:0.25em;
+  border-radius: 10%;
+}

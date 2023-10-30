@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "nimi":"Kadonneen koodaajan etsijät",
+        "ohjaaja":"Seppo Pelivuori",
+        "vuosi":2000,
+        "tyyppi":"seikkailu",
+        "arvostelu":5,
+        "kuva":"kadonnut.png"
+    },
+    {
+        "id": 2,
+        "nimi": "Vain muutaman koodarin tähden",
+        "ohjaaja": "S. Erkki Leijona",
+        "vuosi": 2000,
+        "tyyppi": "scifi",
+        "arvostelu": 4,
+        "kuva": "koodari.png"
+    },
+    {
+        "id": 3,
+        "nimi": "Kadonneen koodaajan etsijät",
+        "ohjaaja": "Seppo Pelivuori",
+        "vuosi": 2000,
+        "tyyppi": "seikkailu",
+        "arvostelu": 5,
+        "kuva": ""
+    },
+    {
+        "id": 4,
+        "nimi": "Vain muutaman koodarin tähden",
+        "ohjaaja": "S. Erkki Leijona",
+        "vuosi": 2000,
+        "tyyppi": "scifi",
+        "arvostelu": 4,
+        "kuva": "koodari.png"
+    }
+]

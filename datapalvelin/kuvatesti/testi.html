@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', aloita);
+
+        function aloita(){
+            document.querySelector('input')
+                .addEventListener('change',lataaPalvelimelle);
+        }
+
+        async function lataaPalvelimelle(e){
+            e.preventDefault();
+            const nimi=e.target.files[0].name;
+            const kuvaOptiot={
+                method:'POST',
+                body:e.target.files[0],
+                headers:{'Datapalvelin-Tiedosto-Nimi':nimi},
+                mode:'cors'
+            };
+            const restKuvaUrl='http://localhost:4003/rest/autot/kuvat';
+
+            const data=await fetch(restKuvaUrl,kuvaOptiot);
+            if(data.ok){
+                console.log('kuva lisätty');
+            }
+            const status=await data.json();
+            console.log(status);
+        }
+    </script>
+</head>
+<body>
+    <h1>Lataa autokuva</h1>
+    <input type="file">
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+    {
+        "numero": 2,
+        "nimi": "Hoppa",
+        "väri": "oranssi",
+        "hinta": 50,
+        "huomautuksia": "kahvi ei sisälly hintaan",
+        "kuva": "pienikuva.png"
+    },
+    {
+        "numero": 3,
+        "nimi": "E-mBW",
+        "väri": "sininen",
+        "hinta": 200,
+        "huomautuksia": "",
+        "kuva": "pienikuva.png"
+    },
+    {
+        "numero": 1,
+        "nimi": "Kaara",
+        "väri": "sininen",
+        "hinta": 1234,
+        "huomautuksia": "loistoauto",
+        "kuva": "pienikuva.png"
+    },
+    {
+        "numero": 4,
+        "nimi": "Bil",
+        "väri": "oranssi",
+        "hinta": 23459,
+        "huomautuksia": "upea auto",
+        "kuva": "pienikuva.png"
+    }
+]

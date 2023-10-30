@@ -1,0 +1,34 @@
+[
+    {
+        "tuotenumero":1,
+        "nimi":"Tietokone",
+        "väri":"oranssi",
+        "hinta":100,
+        "huomautuksia":"ei huomautettavaa",
+        "kuva":"tuote1.png"
+    },
+    {
+        "tuotenumero": 2,
+        "nimi": "Kahvinkeitin",
+        "väri": "oranssi",
+        "hinta": 50,
+        "huomautuksia": "kahvi ei sisälly hintaan",
+        "kuva": "tuote2.png"
+    },
+    {
+        "tuotenumero": 3,
+        "nimi": "Polkupyörä",
+        "väri": "sininen",
+        "hinta": 200,
+        "huomautuksia": "",
+        "kuva": "tuote1.png"
+    },
+    {
+        "tuotenumero": 4,
+        "nimi": "Tietokone",
+        "väri": "punainen",
+        "hinta": 250,
+        "huomautuksia": "Lisävarusteena hiiri",
+        "kuva": "tuote2.png"
+    }
+]

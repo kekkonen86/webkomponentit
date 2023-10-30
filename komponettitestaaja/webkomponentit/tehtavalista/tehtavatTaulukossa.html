@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        :root {
+            --reunus: none;
+            --fonttikoko: 24pt;
+            --tausta: transparent;
+            --nappivari: orange;
+            --tyhjareunus: 0;
+        }
+    
+        body {
+            background-color: khaki;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border:solid blue 1px;
+            font-size:var(--fonttikoko,12pt);
+        }
+        td{
+            background-color: beige;
+        }
+        .tila,th{
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+        
+    </style>
+    <script src="paaohjelmaTaulukolle.js" type="module"></script>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr><th>Tehtävät</th><th>Tila</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><tehtava-komponentti text="eka"></tehtava-komponentti></td>
+                <td class="tila"></td>
+            </tr>
+            <tr>
+                <td><tehtava-komponentti text="toka"></tehtava-komponentti></td>
+                <td class="tila"></td>
+            </tr>
+            <tr>
+                <td><tehtava-komponentti text="kolmas"></tehtava-komponentti></td>
+                <td class="tila"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="tuotepaa.js" type="module"></script>
+    <style>
+        :root{
+            --otsikon-väri:white;
+            --tiedon-väri:blue;
+            --tausta-väri:coral;
+        }
+        #tulosalue{
+            display:flex;
+            gap:1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tuotetiedot</h1>
+    <label>Anna hakuavain: <valinta-lista id="hakuavain"></valinta-lista></label>
+    <label>Anna hakuarvo: <input type="text" id="hakuarvo"></label>
+    <button id="hae">hae</button>
+    <div id="tulosalue"></div>
+</body>
+</html>

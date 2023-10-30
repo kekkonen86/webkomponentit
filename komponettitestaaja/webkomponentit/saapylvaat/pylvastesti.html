@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    canvas{
+        border: solid blue 1px;
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', piirra);
+
+    function piirra(){
+        const piirtoalusta=document.querySelector('canvas');
+        const konteksti=piirtoalusta.getContext('2d');
+        const arvot=[9, 18, 11, 17, 12, 11, 11, 25, 28, 9, 24, 14, 13, 9, 0, 7];
+        //                 x   y lev kork
+        // konteksti.fillRect(10,10, 50,  50);
+        konteksti.fillStyle='green';
+        konteksti.scale(1.2, 1.2);
+        for(let x=0,i=0; i<arvot.length;i++,x+=15){
+            konteksti.fillRect(x, 150-arvot[i],10,arvot[i]);
+        }
+    }
+</script>
+<body>
+    <canvas width="1200" height="200"></canvas>
+</body>
+</html>

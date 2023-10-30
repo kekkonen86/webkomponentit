@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elokuvat</title>
+    <script src="paaohjelma.js" type="module"></script>
+    <style>
+        #leffa{
+            display:grid;
+            align-items: center;
+            justify-items:left;
+            margin:0.5em;
+            background-color: bisque;
+        }
+        img{
+            border-radius:0.5em;
+        }
+
+        .piiloon{
+            width:200px;
+            height:300px;
+            background-color:grey;
+            border-radius:0.5em;
+        } 
+        #arvostelu{
+            float:right;
+        }
+        textarea::selection{
+            background-color: transparent;
+        }
+        #nimi:focus{
+            outline: none;
+        }
+        #nimi{
+            resize:none;
+            border:none;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elokuvat</h1>
+
+    <div id="leffa">
+        <div>
+            <p id="vuosi">2023</p>
+        </div>
+        <div id="kuva">
+            <img src="koodari.png" alt="">
+        </div>
+        <div id="tiedot">
+            <p><span id="tyyppi">Komedia</span> <span id="arvostelu">****</span></p>
+            <textarea id="nimi" readonly>Kadonneen koodaajan etsijät</textarea>
+            <p>Ohjaus <span id="ohjaaja">Seppo Pelivuori</span></p>
+        </div>
+    </div>
+</body>
+</html>

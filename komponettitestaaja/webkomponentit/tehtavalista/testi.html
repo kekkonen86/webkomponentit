@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #pallo{
+            border:solid 1px black;
+            background-color: red;
+            border-radius: 50%;
+            height: 12pt;
+            aspect-ratio: 1/1;
+        }
+        #rivi{
+            width:80%;
+            display: grid;
+            grid-template-columns: auto 5% 5%;
+            gap:0.5em;
+            padding:1em;
+        }
+        .vihje{
+            position:relative;
+            display: inline-block;
+        }
+        .vihje .vihjeteksti{
+            visibility:hidden;
+            width:100%;
+            background-color: red;
+            text-align:center;
+            padding:5px;
+
+            position:absolute;
+            z-index:1;
+            top:-5px;
+            left:120%;
+        }
+
+        .vihje:hover .vihjeteksti{
+            visibility: visible;
+            width:max-content;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="rivi">
+        <input type="text" placeholder="-- lisää tehtävä --">
+        <div id="pallo" class="vihje">
+            <span class="vihjeteksti">Aloittamatta</span>
+        </div>
+        <button>X</button>
+    </div>
+</body>
+</html>

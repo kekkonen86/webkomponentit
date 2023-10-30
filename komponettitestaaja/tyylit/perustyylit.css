@@ -1,0 +1,19 @@
+h1{
+    color:blue;
+}
+main{
+    display: grid;
+    justify-items:center;
+}
+
+button{
+    width: 30em;
+    margin:2px;
+    padding:2px;
+    text-align: left;
+}
+
+.kansio{
+    color:blue;
+    font-weight: bold;
+}

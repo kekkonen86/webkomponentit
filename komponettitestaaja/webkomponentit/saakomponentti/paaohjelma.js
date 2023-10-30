@@ -1,0 +1,1 @@
+import {Lammot} from './saakomponentti.js';

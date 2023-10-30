@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="paaohjelma.js" type="module"></script>
+    <style>
+        :root{
+            --otsikon-väri:blue;
+            --tiedon-väri:blue;
+            --tausta-väri:coral;
+        }
+        body{
+            background-color: var(--tausta-väri,yellow);
+        }
+        h1{
+            color:var(--otsikon-väri,red);
+        }
+
+        tuote-elementti{
+            --tausta-väri:rgb(21, 247, 21);
+        }
+        tuote-elementti:hover{
+            padding:1em;
+        }
+        
+        ::part(avain){
+            font-weight: bold;
+            background-color: beige;
+        }
+        ::part(avain):hover{
+            background-color: red;
+        }
+        ::part(tieto){
+            background-color: aquamarine;
+            padding:0.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tuotteet</h1>
+    <tuote-elementti 
+        tuotenumero="1"
+        nimi="pyörä" 
+        hinta="200" 
+        väri="keltainen" 
+        huomautuksia="ei mitään">
+    </tuote-elementti>
+</body>
+</html>

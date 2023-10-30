@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    canvas{
+        border: solid blue 1px;
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', piirra);
+    let konteksti;
+
+    function piirra(){
+        const piirtoalusta=document.querySelector('canvas');
+        konteksti=piirtoalusta.getContext('2d');
+        const arvot= [
+            { paiva: 1, lampotila: 8 },
+            { paiva: 2, lampotila: 16 },
+            { paiva: 3, lampotila: 27 },
+            { paiva: 4, lampotila: 28 },
+            { paiva: 5, lampotila: 4 },
+            { paiva: 6, lampotila: 23 },
+            { paiva: 7, lampotila: 26 },
+            { paiva: 8, lampotila: 22 },
+            { paiva: 9, lampotila: 22 },
+            { paiva: 10, lampotila: 6 },
+            { paiva: 11, lampotila: 0 },
+            { paiva: 12, lampotila: 15 },
+            { paiva: 13, lampotila: 5 },
+            { paiva: 14, lampotila: 24 },
+            { paiva: 15, lampotila: 21 },
+            { paiva: 16, lampotila: 23 },
+            { paiva: 17, lampotila: 28 },
+            { paiva: 18, lampotila: 12 },
+            { paiva: 19, lampotila: 4 },
+            { paiva: 20, lampotila: 12 },
+            { paiva: 21, lampotila: 29 },
+            { paiva: 22, lampotila: 27 },
+            { paiva: 23, lampotila: 5 },
+            { paiva: 24, lampotila: 11 },
+            { paiva: 25, lampotila: 6 },
+            { paiva: 26, lampotila: 24 },
+            { paiva: 27, lampotila: 22 },
+            { paiva: 28, lampotila: 20 },
+            { paiva: 29, lampotila: 10 },
+            { paiva: 30, lampotila: 20 },
+            { paiva: 31, lampotila: 3 }
+        ]
+        
+        
+        konteksti.scale(1.2, 1.2);
+        piirraKaikkiPylvaat(arvot);
+        
+    }
+    function piirraKaikkiPylvaat(data){
+        //tähän koodia
+        konteksti.translate(10,100);
+        konteksti.fillStyle='green';
+        let x=10;
+        for(let alkio of data){
+            piirraPylvas(konteksti,x,alkio);
+            x+=25;
+        }
+
+    }
+
+    function piirraPylvas(konteksti,x,data){
+        konteksti.save();
+            konteksti.fillRect(x,-data.lampotila, 20, data.lampotila);
+            konteksti.fillStyle = 'black';
+            konteksti.fillText(data.lampotila, x+5, -data.lampotila - 5);
+            konteksti.fillText(data.paiva, x+5, 15);
+        konteksti.restore();
+    }
+</script>
+<body>
+    <canvas width="970" height="200"></canvas>
+</body>
+</html>

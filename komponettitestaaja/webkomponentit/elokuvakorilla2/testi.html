@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="paaohjelma.js" type="module"></script>
+    <style>
+        div{
+            display:grid;
+            /* grid-template-columns: auto auto auto; */
+            /* grid-template-columns: 300px 300px 300px; */
+            grid-template-columns: auto auto 1fr;
+            gap:1em;
+        }
+
+        button{
+            margin:1em;
+            height: 3em;
+        }
+        elokuva-kori{
+            width: fit-content;
+            border:violet solid 3px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="elokuvat"></div>
+    <p><button id="valmis">Kassalle</button></p>
+    <pre></pre>
+</body>
+</html>

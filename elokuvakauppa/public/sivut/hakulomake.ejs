@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haku</title>
+    <link rel="stylesheet" href="/tyylit/tyylit.css">
+</head>
+<body>
+    <main>
+        <h1><%= otsikko %></h1>
+        <form action="<%= toiminto %>" method="POST">
+            <label> Syötä <%= teksti %>: 
+                <input type="text" name="nro">
+            </label>
+            <button type="submit">Lähetä</button>
+        </form>
+        <p>
+            <a href="/"><button>Valikko</button></a>
+        </p>
+    </main>
+</body>
+</html>

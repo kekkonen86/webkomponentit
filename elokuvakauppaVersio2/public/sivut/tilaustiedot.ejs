@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tilauksen tiedot</title>
+    <link rel="stylesheet" href="/tyylit/tyylit.css">
+    <script src="/js/paaEjs.js" type="module"></script>
+</head>
+<body>
+    <main>
+        <h1>Tilauksen tiedot</h1>
+        <section id="tilaukset">
+            <% if(!tilaukset.viesti) { %>
+                <h2>Tilausnumero: <%= tilaukset[0].tilausid %></h2>
+                <% tilaukset.forEach(tilaus =>{ %>
+                    <tuote-rivi nimi="<%= tilaus.nimi %>"
+                        hinta="<%= tilaus.hinta %>"
+                        maara="<%= tilaus.tilausmaara %>"></tuote-rivi>
+                <% }); %>
+
+            <% } else { %>
+                <h2><%= tilaukset.viesti %></h2>
+            <% } %>
+        </section>
+        <a href="/"><button>Valikko</button></a>
+    </main>
+</body>
+</html>

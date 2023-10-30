@@ -1,0 +1,8 @@
+{
+    "host":"localhost",
+    "port":3306,
+    "user":"filmaaja",
+    "password":"12345",
+    "database":"elokuvadb",
+    "allowPublicKeyRetrieval": true
+}

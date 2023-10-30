@@ -1,0 +1,48 @@
+{
+    "haeKaikki":[
+        "select id,nimi,hinta,vuosi,arvostelu,ohjaaja,tyyppi,kuva",
+        "from elokuva"
+    ],
+    "haeTilausNumerolla":[
+        "select tilausid,nimi,tilausmaara,hinta, tilausmaara*hinta as yht",
+        "from elokuva",
+        "inner join tilausrivi on elokuvanro=id",
+        "where tilausid=?",
+        "order by nimi asc"
+    ],
+    "lisaaTilaus":[
+        "insert into tilaus (tilausnumero, tilaaja) values(?,?)"
+    ],
+    "lisaaTilausrivi":[
+        "insert into tilausrivi (tilausid,elokuvanro,tilausmaara) values(?,?,?)"
+    ],
+    "lisaaAsiakas":[
+        "insert into asiakas (asiakasnumero,etunimi,sukunimi) values(?,?,?)"
+    ],
+    "seuraavaTilausNro":[
+        "select coalesce(max(tilausnumero),0)+1 as tilausnumero from tilaus"
+    ],
+    "seuraavaAsiakasNro": [
+        "select coalesce(max(asiakasnumero),0)+1 as asiakasnumero from asiakas"
+    ],
+    "haeAsiakas":[
+        "select asiakasnumero,etunimi,sukunimi from asiakas",
+        "where etunimi=? and sukunimi=?"
+    ],
+    "haeAsiakkaanTilaukset":[
+        "select tilausid, etunimi, sukunimi, nimi, tilausmaara,hinta from elokuva",
+        "inner join tilausrivi on elokuvanro=id",
+        "inner join tilaus on tilausid=tilausnumero",
+        "inner join asiakas on asiakasnumero=tilaaja",
+        "where asiakasnumero=?",
+        "order by tilausid asc, nimi asc"
+    ],
+    "haeTilauksetNimella":[
+        "select tilausid, nimi, tilausmaara,hinta from elokuva",
+        "inner join tilausrivi on elokuvanro=id",
+        "inner join tilaus on tilausid=tilausnumero",
+        "inner join asiakas on asiakasnumero=tilaaja",
+        "where etunimi=? and sukunimi=?",
+        "order by tilausid asc, nimi asc"
+    ]
+}

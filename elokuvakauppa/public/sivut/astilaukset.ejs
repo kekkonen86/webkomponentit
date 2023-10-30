@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/tyylit/tyylit.css">
+    <script src="/js/paaEjs.js" type="module"></script>
+</head>
+<body>
+    <main>
+        <h1>Tilaukset</h1>
+        <section id="tilaukset">
+            <% if(tilaukset.length>0) { %>
+                <h2>Asiakas: <%= tilaukset[0].etunimi%> <%= tilaukset[0].sukunimi %></h2>
+                <% let tnro=0; 
+                   tilaukset.forEach(tilaus=>{ 
+                    if(tnro!==tilaus.tilausid) {
+                        tnro=tilaus.tilausid; %>
+                        <h2>Tilausnumero: <%= tnro %></h2>
+                    <% } %>
+                    <tuote-rivi nimi="<%= tilaus.nimi %>" 
+                        hinta="<%= tilaus.hinta %>" 
+                        maara="<%= tilaus.tilausmaara %>"></tuote-rivi>
+                <% }); %>
+            <% } else { %>
+                <h2>Asiakkaalla ei ole tilauksia</h2>
+            <% } %>
+        </section>
+        <a href="/"><button>Valikko</button></a>
+    </main>
+    
+</body>
+</html>

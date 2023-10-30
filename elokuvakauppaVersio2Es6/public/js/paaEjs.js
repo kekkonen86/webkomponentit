@@ -1,0 +1,1 @@
+import { Tuoterivi } from "/js/webkomponentit/tuoterivi.js";

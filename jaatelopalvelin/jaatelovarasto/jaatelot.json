@@ -1,0 +1,21 @@
+{
+    "mansikka": {
+        "nimi": "Mansikka",
+        "hinta": 2,
+        "kuva": "mansikka.png"
+    },
+    "suklaa": {
+        "nimi": "Suklaa",
+        "hinta": 3,
+        "kuva": "suklaa.png"
+    },
+    "vanilja":{
+        "nimi":"Vanilja",
+        "hinta":1,
+        "kuva":"vanilja.png"
+    },
+    "päärynä":{
+        "nimi":"Päärynä",
+        "hinta":3.5
+    }
+}

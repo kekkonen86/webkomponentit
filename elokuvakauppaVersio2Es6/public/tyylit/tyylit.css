@@ -1,0 +1,40 @@
+#elokuvat {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 1em;
+}
+
+button {
+    margin: 1em;
+    height: 3em;
+    width: 15em;
+}
+
+tuote-rivi{
+    background-color: khaki;
+}
+
+tuote-rivi::part(nimi){
+    font-weight: bold;
+    font-size:14pt;
+}
+
+tuote-rivi::part(rivi){
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+}
+
+tuote-rivi::part(yht), tuote-rivi::part(yhteensa){
+    font-weight: bold;
+}
+
+.piilotettu{
+    display:none;
+}
+
+#valikko{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}

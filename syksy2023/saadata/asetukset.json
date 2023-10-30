@@ -1,0 +1,7 @@
+{
+    "varastotiedosto":"saadata.json",
+    "perusavain":"id",
+    "hakuavaimet":["id","paikkakunta","paiva","lämpötila","sademäärä"],
+    "resurssi":"säätilat",
+    "kuvakansio":"kuvat"
+}

@@ -1,0 +1,839 @@
+[
+    {
+        "id": 1,
+        "paikkakunta": "Helsinki",
+        "paiva": 1,
+        "lämpötila": 9,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 2,
+        "paikkakunta": "Helsinki",
+        "paiva": 2,
+        "lämpötila": 18,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 3,
+        "paikkakunta": "Helsinki",
+        "paiva": 3,
+        "lämpötila": 11,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 4,
+        "paikkakunta": "Helsinki",
+        "paiva": 4,
+        "lämpötila": 17,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 5,
+        "paikkakunta": "Helsinki",
+        "paiva": 5,
+        "lämpötila": 12,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 6,
+        "paikkakunta": "Helsinki",
+        "paiva": 6,
+        "lämpötila": 11,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 7,
+        "paikkakunta": "Helsinki",
+        "paiva": 7,
+        "lämpötila": 11,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 8,
+        "paikkakunta": "Helsinki",
+        "paiva": 8,
+        "lämpötila": 25,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 9,
+        "paikkakunta": "Helsinki",
+        "paiva": 9,
+        "lämpötila": 28,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 10,
+        "paikkakunta": "Helsinki",
+        "paiva": 10,
+        "lämpötila": 9,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 11,
+        "paikkakunta": "Helsinki",
+        "paiva": 11,
+        "lämpötila": 24,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 12,
+        "paikkakunta": "Helsinki",
+        "paiva": 12,
+        "lämpötila": 14,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 13,
+        "paikkakunta": "Helsinki",
+        "paiva": 13,
+        "lämpötila": 13,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 14,
+        "paikkakunta": "Helsinki",
+        "paiva": 14,
+        "lämpötila": 9,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 15,
+        "paikkakunta": "Helsinki",
+        "paiva": 15,
+        "lämpötila": 0,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 16,
+        "paikkakunta": "Helsinki",
+        "paiva": 16,
+        "lämpötila": 7,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 17,
+        "paikkakunta": "Helsinki",
+        "paiva": 17,
+        "lämpötila": 4,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 18,
+        "paikkakunta": "Helsinki",
+        "paiva": 18,
+        "lämpötila": 16,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 19,
+        "paikkakunta": "Helsinki",
+        "paiva": 19,
+        "lämpötila": 26,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 20,
+        "paikkakunta": "Helsinki",
+        "paiva": 20,
+        "lämpötila": 18,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 21,
+        "paikkakunta": "Helsinki",
+        "paiva": 21,
+        "lämpötila": 17,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 22,
+        "paikkakunta": "Helsinki",
+        "paiva": 22,
+        "lämpötila": 17,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 23,
+        "paikkakunta": "Helsinki",
+        "paiva": 23,
+        "lämpötila": 28,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 24,
+        "paikkakunta": "Helsinki",
+        "paiva": 24,
+        "lämpötila": 7,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 25,
+        "paikkakunta": "Helsinki",
+        "paiva": 25,
+        "lämpötila": 17,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 26,
+        "paikkakunta": "Helsinki",
+        "paiva": 26,
+        "lämpötila": 2,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 27,
+        "paikkakunta": "Helsinki",
+        "paiva": 27,
+        "lämpötila": 27,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 28,
+        "paikkakunta": "Helsinki",
+        "paiva": 28,
+        "lämpötila": 23,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 29,
+        "paikkakunta": "Helsinki",
+        "paiva": 29,
+        "lämpötila": 25,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 30,
+        "paikkakunta": "Helsinki",
+        "paiva": 30,
+        "lämpötila": 8,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 31,
+        "paikkakunta": "Helsinki",
+        "paiva": 31,
+        "lämpötila": 0,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 32,
+        "paikkakunta": "Tampere",
+        "paiva": 1,
+        "lämpötila": 18,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 33,
+        "paikkakunta": "Tampere",
+        "paiva": 2,
+        "lämpötila": 20,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 34,
+        "paikkakunta": "Tampere",
+        "paiva": 3,
+        "lämpötila": 10,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 35,
+        "paikkakunta": "Tampere",
+        "paiva": 4,
+        "lämpötila": 19,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 36,
+        "paikkakunta": "Tampere",
+        "paiva": 5,
+        "lämpötila": 29,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 37,
+        "paikkakunta": "Tampere",
+        "paiva": 6,
+        "lämpötila": 19,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 38,
+        "paikkakunta": "Tampere",
+        "paiva": 7,
+        "lämpötila": 7,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 39,
+        "paikkakunta": "Tampere",
+        "paiva": 8,
+        "lämpötila": 23,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 40,
+        "paikkakunta": "Tampere",
+        "paiva": 9,
+        "lämpötila": 27,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 41,
+        "paikkakunta": "Tampere",
+        "paiva": 10,
+        "lämpötila": 7,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 42,
+        "paikkakunta": "Tampere",
+        "paiva": 11,
+        "lämpötila": 22,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 43,
+        "paikkakunta": "Tampere",
+        "paiva": 12,
+        "lämpötila": 10,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 44,
+        "paikkakunta": "Tampere",
+        "paiva": 13,
+        "lämpötila": 21,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 45,
+        "paikkakunta": "Tampere",
+        "paiva": 14,
+        "lämpötila": 16,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 46,
+        "paikkakunta": "Tampere",
+        "paiva": 15,
+        "lämpötila": 29,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 47,
+        "paikkakunta": "Tampere",
+        "paiva": 16,
+        "lämpötila": 17,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 48,
+        "paikkakunta": "Tampere",
+        "paiva": 17,
+        "lämpötila": 24,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 49,
+        "paikkakunta": "Tampere",
+        "paiva": 18,
+        "lämpötila": 21,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 50,
+        "paikkakunta": "Tampere",
+        "paiva": 19,
+        "lämpötila": 3,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 51,
+        "paikkakunta": "Tampere",
+        "paiva": 20,
+        "lämpötila": 16,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 52,
+        "paikkakunta": "Tampere",
+        "paiva": 21,
+        "lämpötila": 8,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 53,
+        "paikkakunta": "Tampere",
+        "paiva": 22,
+        "lämpötila": 17,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 54,
+        "paikkakunta": "Tampere",
+        "paiva": 23,
+        "lämpötila": 4,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 55,
+        "paikkakunta": "Tampere",
+        "paiva": 24,
+        "lämpötila": 10,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 56,
+        "paikkakunta": "Tampere",
+        "paiva": 25,
+        "lämpötila": 10,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 57,
+        "paikkakunta": "Tampere",
+        "paiva": 26,
+        "lämpötila": 13,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 58,
+        "paikkakunta": "Tampere",
+        "paiva": 27,
+        "lämpötila": 22,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 59,
+        "paikkakunta": "Tampere",
+        "paiva": 28,
+        "lämpötila": 30,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 60,
+        "paikkakunta": "Tampere",
+        "paiva": 29,
+        "lämpötila": 25,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 61,
+        "paikkakunta": "Tampere",
+        "paiva": 30,
+        "lämpötila": 26,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 62,
+        "paikkakunta": "Tampere",
+        "paiva": 31,
+        "lämpötila": 17,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 63,
+        "paikkakunta": "Oulu",
+        "paiva": 1,
+        "lämpötila": 8,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 64,
+        "paikkakunta": "Oulu",
+        "paiva": 2,
+        "lämpötila": 16,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 65,
+        "paikkakunta": "Oulu",
+        "paiva": 3,
+        "lämpötila": 27,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 66,
+        "paikkakunta": "Oulu",
+        "paiva": 4,
+        "lämpötila": 28,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 67,
+        "paikkakunta": "Oulu",
+        "paiva": 5,
+        "lämpötila": 4,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 68,
+        "paikkakunta": "Oulu",
+        "paiva": 6,
+        "lämpötila": 23,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 69,
+        "paikkakunta": "Oulu",
+        "paiva": 7,
+        "lämpötila": 26,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 70,
+        "paikkakunta": "Oulu",
+        "paiva": 8,
+        "lämpötila": 22,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 71,
+        "paikkakunta": "Oulu",
+        "paiva": 9,
+        "lämpötila": 22,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 72,
+        "paikkakunta": "Oulu",
+        "paiva": 10,
+        "lämpötila": 6,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 73,
+        "paikkakunta": "Oulu",
+        "paiva": 11,
+        "lämpötila": 0,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 74,
+        "paikkakunta": "Oulu",
+        "paiva": 12,
+        "lämpötila": 15,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 75,
+        "paikkakunta": "Oulu",
+        "paiva": 13,
+        "lämpötila": 5,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 76,
+        "paikkakunta": "Oulu",
+        "paiva": 14,
+        "lämpötila": 24,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 77,
+        "paikkakunta": "Oulu",
+        "paiva": 15,
+        "lämpötila": 21,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 78,
+        "paikkakunta": "Oulu",
+        "paiva": 16,
+        "lämpötila": 23,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 79,
+        "paikkakunta": "Oulu",
+        "paiva": 17,
+        "lämpötila": 28,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 80,
+        "paikkakunta": "Oulu",
+        "paiva": 18,
+        "lämpötila": 12,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 81,
+        "paikkakunta": "Oulu",
+        "paiva": 19,
+        "lämpötila": 4,
+        "sademäärä": 3,
+        "pilvisyys": 3,
+        "pilviSymboli": "☂"
+    },
+    {
+        "id": 82,
+        "paikkakunta": "Oulu",
+        "paiva": 20,
+        "lämpötila": 12,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 83,
+        "paikkakunta": "Oulu",
+        "paiva": 21,
+        "lämpötila": 29,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 84,
+        "paikkakunta": "Oulu",
+        "paiva": 22,
+        "lämpötila": 27,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 85,
+        "paikkakunta": "Oulu",
+        "paiva": 23,
+        "lämpötila": 5,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 86,
+        "paikkakunta": "Oulu",
+        "paiva": 24,
+        "lämpötila": 11,
+        "sademäärä": 0,
+        "pilvisyys": 0,
+        "pilviSymboli": "☀"
+    },
+    {
+        "id": 87,
+        "paikkakunta": "Oulu",
+        "paiva": 25,
+        "lämpötila": 6,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 88,
+        "paikkakunta": "Oulu",
+        "paiva": 26,
+        "lämpötila": 24,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 89,
+        "paikkakunta": "Oulu",
+        "paiva": 27,
+        "lämpötila": 22,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    },
+    {
+        "id": 90,
+        "paikkakunta": "Oulu",
+        "paiva": 28,
+        "lämpötila": 20,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 91,
+        "paikkakunta": "Oulu",
+        "paiva": 29,
+        "lämpötila": 10,
+        "sademäärä": 1,
+        "pilvisyys": 1,
+        "pilviSymboli": "⛅"
+    },
+    {
+        "id": 92,
+        "paikkakunta": "Oulu",
+        "paiva": 30,
+        "lämpötila": 20,
+        "sademäärä": 2,
+        "pilvisyys": 2,
+        "pilviSymboli": "☁"
+    },
+    {
+        "id": 93,
+        "paikkakunta": "Oulu",
+        "paiva": 31,
+        "lämpötila": 3,
+        "sademäärä": 4,
+        "pilvisyys": 4,
+        "pilviSymboli": "⛈"
+    }
+]

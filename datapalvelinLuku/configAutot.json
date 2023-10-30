@@ -1,0 +1,13 @@
+{
+    "port":3003,
+    "host":"localhost",
+    "kirjasto":{
+        "kansio":"kirjasto",
+        "varastokerros":"varastokerros.js",
+        "varastokasittelija":"varastokasittelija.js"
+    },
+    "varasto":{
+        "kansio":"autovarasto",
+        "asetustiedosto":"asetukset.json"
+    }
+}

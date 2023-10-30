@@ -1,0 +1,8 @@
+{
+    "varastotiedosto":"henkilot.json",
+    "perusavain":"tunnus",
+    "hakuavaimet":["tunnus", "etunimi", "sukunimi"],
+    "resurssi":"henkilot",
+    "kuvakansio":"kuvat",
+    "muunnin":"henkilosovitin.js"
+}

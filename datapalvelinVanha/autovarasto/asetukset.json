@@ -1,0 +1,8 @@
+{
+    "varastotiedosto":"autot.json",
+    "perusavain":"numero",
+    "hakuavaimet":["numero", "nimi", "väri", "hinta"],
+    "resurssi":"autot",
+    "kuvakansio":"kuvat",
+    "muunnin":"autosovitin.js"
+}

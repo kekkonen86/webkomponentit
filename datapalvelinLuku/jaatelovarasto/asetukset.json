@@ -1,0 +1,7 @@
+{
+    "varastotiedosto":"jaatelot.json",
+    "perusavain":"id",
+    "hakuavaimet":["id", "nimi", "hinta"],
+    "resurssi":"jäätelöt",
+    "kuvakansio":"kuvat"
+}

@@ -1,0 +1,8 @@
+{
+    "varastotiedosto":"tuotteet.json",
+    "perusavain":"tuotenumero",
+    "hakuavaimet":["tuotenumero", "nimi", "väri", "hinta"],
+    "resurssi":"tuotteet",
+    "kuvakansio":"kuvat",
+    "muunnin":"tuotesovitin.js"
+}

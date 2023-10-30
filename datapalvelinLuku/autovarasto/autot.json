@@ -1,0 +1,30 @@
+[
+    {
+        "numero":1,
+        "nimi":"Kaara",
+        "väri":"oranssi",
+        "hinta":100,
+        "huomautuksia":"ei huomautettavaa"
+    },
+    {
+        "numero": 2,
+        "nimi": "Hoppa",
+        "väri": "oranssi",
+        "hinta": 50,
+        "huomautuksia": "kahvi ei sisälly hintaan"
+    },
+    {
+        "numero": 3,
+        "nimi": "E-mBW",
+        "väri": "sininen",
+        "hinta": 200,
+        "huomautuksia": ""
+    },
+    {
+        "numero": 4,
+        "nimi": "Bil",
+        "väri": "punainen",
+        "hinta": 250,
+        "huomautuksia": "Lisävarusteena hiiri"
+    }
+]

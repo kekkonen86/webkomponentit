@@ -1,0 +1,17 @@
+
+
+.Tuote p span{
+  font-weight: bold;
+  color: blue;
+}
+
+.Tuote .arvostelu{
+  font-size: 32pt;
+  font-weight: bold;
+  color:goldenrod;
+  border:1px solid red;
+}
+
+.Tuote h2{
+  font-size: 12pt;
+}

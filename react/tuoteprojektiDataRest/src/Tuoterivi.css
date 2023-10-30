@@ -1,0 +1,8 @@
+.Tuoterivi img{
+    width:40px;
+}
+
+.Tuoterivi td{
+    border:solid black 1px;
+    padding:2px;
+}

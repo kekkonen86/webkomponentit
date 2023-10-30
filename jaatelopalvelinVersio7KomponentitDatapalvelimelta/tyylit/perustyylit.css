@@ -1,0 +1,26 @@
+h1{
+    color:blue;
+}
+main{
+    display: grid;
+    justify-items:center;
+}
+
+section div{
+    display: grid;
+    justify-items: center;
+}
+
+.virhe {
+    border:dashed red 2px;
+    padding:1em;
+    margin-top: 1em;
+}
+
+.virhe h2{
+    color:red;
+}
+
+#kuva{
+    width:100px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jäätelöt</title>
+    <link rel="stylesheet" href="/tyylit/perustyylit.css">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <script src="/js/paivittaja.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Valitse jäätelö</h1>
+        <div id="valinnat">
+            <label>Valitse:</label>
+            <select id="jaatelot">
+                <option value=""></option>
+            </select>
+        </div>
+        <section id="tulosalue"></section>
+    </main>
+
+    <template id="virhetemplate">
+        <div>
+            <h2>Virhe</h2>
+            <p class="virhe"></p>
+        </div>
+    </template>
+
+    <template id="tietotemplate">
+        <div id="tiedot">
+            <p id="nimi"></p>
+            <p id="hinta"></p>   
+        </div>
+    </template>
+</body>
+</html>
